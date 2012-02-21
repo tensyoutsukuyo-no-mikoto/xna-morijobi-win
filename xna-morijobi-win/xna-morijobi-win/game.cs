@@ -1,4 +1,4 @@
-#define DIAGNOSTICS
+//#define DIAGNOSTICS
 
 using System;
 using System.Collections.Generic;
@@ -21,17 +21,17 @@ namespace xna_morijobi_win
         protected readonly GraphicsDeviceManager graphics;
         protected readonly scene.scene_manager scene_manager;
         protected readonly input.input_manager input_manager;
-#if DIAGNOSTICS
-        protected readonly diagnostics.diagnostics_manager diagnostics_manager;
-#endif
+//#if DIAGNOSTICS
+//        protected readonly diagnostics.diagnostics_manager diagnostics_manager;
+//#endif
         public game()
         {
             graphics = new GraphicsDeviceManager(this);
             scene_manager = new scene.scene_manager(this);
             input_manager = new input.input_manager(this);
-#if DIAGNOSTICS
-            diagnostics_manager = new diagnostics.diagnostics_manager(this);
-#endif
+//#if DIAGNOSTICS
+//            diagnostics_manager = new diagnostics.diagnostics_manager(this);
+//#endif
             Content.RootDirectory = "Content";
             reset_game_settings();
         }
@@ -55,46 +55,48 @@ namespace xna_morijobi_win
             Components.Clear();
             Components.Add(input_manager);
             Components.Add(scene_manager);
-#if DIAGNOSTICS
-            Components.Add(diagnostics_manager);
-            diagnostics_manager.components.Add(diagnostics.stopwatch.instance(this));
-#endif
+//#if DIAGNOSTICS
+//            Components.Add(diagnostics_manager);
+//            diagnostics_manager.components.Add(diagnostics.stopwatch.instance(this));
+//#endif
         }
 
         protected void initialize_scenes()
         {
             scene_manager.push(new scene.scene[] {
-#if DEBUG
-                new rpg.test(this),    
-#else
+//#if DEBUG
+//                new rpg.test(this),    
+//#else
+//                new scenes.title(this),
                 new scenes.title(this),
+                new scenes.blanding_2(this),
                 new scenes.blanding(this),
-#endif
+//#endif
             });
         }
 
         protected override void Update(GameTime gameTime)
         {
-#if DIAGNOSTICS
-            diagnostics.stopwatch.measuring_begin("game Update");
-#endif
+//#if DIAGNOSTICS
+//            diagnostics.stopwatch.measuring_begin("game Update");
+//#endif
             check_exit();
             check_fullscreen();
             base.Update(gameTime);
-#if DIAGNOSTICS
-            diagnostics.stopwatch.measuring_end("game Update");
-#endif
+//#if DIAGNOSTICS
+//            diagnostics.stopwatch.measuring_end("game Update");
+//#endif
         }
 
         protected override void Draw(GameTime gameTime)
         {
-#if DIAGNOSTICS
-            diagnostics.stopwatch.measuring_begin("game Draw");
-#endif
+//#if DIAGNOSTICS
+//            diagnostics.stopwatch.measuring_begin("game Draw");
+//#endif
             base.Draw(gameTime);
-#if DIAGNOSTICS
-            diagnostics.stopwatch.measuring_end("game Draw");
-#endif
+//#if DIAGNOSTICS
+//            diagnostics.stopwatch.measuring_end("game Draw");
+//#endif
         }
 
         protected void check_fullscreen()

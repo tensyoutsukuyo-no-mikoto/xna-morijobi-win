@@ -1,0 +1,2 @@
+F:\Git関係\xna-morijobi-win\xna-morijobi-win\xna-morijobi-winContent\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Git関係\xna-morijobi-win\xna-morijobi-win\xna-morijobi-winContent\obj\x86\Debug\ResolveAssemblyReference.cache

@@ -49,7 +49,8 @@ namespace xna_morijobi_win.scenes
             sprite_batch.Begin();
             sprite_batch.Draw(image, new Rectangle(0, 0, Game.GraphicsDevice.Viewport.Width, Game.GraphicsDevice.Viewport.Height), Color.White);
             if(elapsed_time.Milliseconds < 500)
-                sprite_batch.DrawString(font, "<PRESS Z to MY-SPACE>\n<PRESS X to RPG-TEST>", new Vector2(64, 320), Color.White);
+//                sprite_batch.DrawString(font, "<PRESS Z to MY-SPACE>\n<PRESS X to RPG-TEST>", new Vector2(64, 320), Color.White);
+                sprite_batch.DrawString(font, "<PRESS Z to FREE-PLAY>", new Vector2(64, 320), Color.White);
             sprite_batch.End();
             base.Draw(gameTime);
         }
@@ -62,13 +63,15 @@ namespace xna_morijobi_win.scenes
             if (input_manager.is_key_down_begin(Keys.Z))
             {
                 se_enter.Play();
-                scene_manager.push(new my_space.my_space(Game));
+//                scene_manager.push(new my_space.my_space(Game));
+//                scene_manager.push(new cyber_parade.free_play.free_play(Game));
+
             }
-            else if (input_manager.is_key_down_begin(Keys.X))
-            {
-                se_enter.Play();
-                scene_manager.push(new rpg.test(Game));
-            }
+//            else if (input_manager.is_key_down_begin(Keys.X))
+//            {
+//                se_enter.Play();
+//                scene_manager.push(new rpg.test(Game));
+//            }
         }
     }
 }
