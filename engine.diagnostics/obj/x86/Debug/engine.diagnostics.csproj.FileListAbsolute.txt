@@ -1,0 +1,12 @@
+F:\Git関係\xna-morijobi-win\engine.diagnostics\bin\x86\Debug\xna_morijobi_win.diagnostics.dll
+F:\Git関係\xna-morijobi-win\engine.diagnostics\bin\x86\Debug\xna_morijobi_win.diagnostics.pdb
+F:\Git関係\xna-morijobi-win\engine.diagnostics\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Git関係\xna-morijobi-win\engine.diagnostics\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Git関係\xna-morijobi-win\engine.diagnostics\obj\x86\Debug\xna_morijobi_win.diagnostics.dll
+F:\Git関係\xna-morijobi-win\engine.diagnostics\obj\x86\Debug\xna_morijobi_win.diagnostics.pdb
+E:\Git関係\xna-morijobi-win\engine.diagnostics\bin\x86\Debug\xna_morijobi_win.diagnostics.dll
+E:\Git関係\xna-morijobi-win\engine.diagnostics\bin\x86\Debug\xna_morijobi_win.diagnostics.pdb
+E:\Git関係\xna-morijobi-win\engine.diagnostics\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Git関係\xna-morijobi-win\engine.diagnostics\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Git関係\xna-morijobi-win\engine.diagnostics\obj\x86\Debug\xna_morijobi_win.diagnostics.dll
+E:\Git関係\xna-morijobi-win\engine.diagnostics\obj\x86\Debug\xna_morijobi_win.diagnostics.pdb

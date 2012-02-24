@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xna-morijobi-win", "xna-morijobi-win\xna-morijobi-win\xna-morijobi-win.csproj", "{75359C3C-DA5D-496F-AAE6-C8D4B3076483}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xna-morijobi-winContent", "xna-morijobi-win\xna-morijobi-winContent\xna-morijobi-winContent.contentproj", "{48A06FBF-90DA-4446-AC23-9E0230C2E331}"

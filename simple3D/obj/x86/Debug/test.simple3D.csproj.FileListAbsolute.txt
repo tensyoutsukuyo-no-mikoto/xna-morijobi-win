@@ -1,0 +1,16 @@
+F:\Git関係\xna-morijobi-win\simple3D\bin\x86\Debug\xna_morijobi_win.simple3D.dll
+F:\Git関係\xna-morijobi-win\simple3D\bin\x86\Debug\xna_morijobi_win.simple3D.pdb
+F:\Git関係\xna-morijobi-win\simple3D\bin\x86\Debug\CpuSkinningDataTypes.dll
+F:\Git関係\xna-morijobi-win\simple3D\bin\x86\Debug\CpuSkinningDataTypes.pdb
+F:\Git関係\xna-morijobi-win\simple3D\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Git関係\xna-morijobi-win\simple3D\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Git関係\xna-morijobi-win\simple3D\obj\x86\Debug\xna_morijobi_win.simple3D.dll
+F:\Git関係\xna-morijobi-win\simple3D\obj\x86\Debug\xna_morijobi_win.simple3D.pdb
+E:\Git関係\xna-morijobi-win\simple3D\bin\x86\Debug\xna_morijobi_win.simple3D.dll
+E:\Git関係\xna-morijobi-win\simple3D\bin\x86\Debug\xna_morijobi_win.simple3D.pdb
+E:\Git関係\xna-morijobi-win\simple3D\bin\x86\Debug\CpuSkinningDataTypes.dll
+E:\Git関係\xna-morijobi-win\simple3D\bin\x86\Debug\CpuSkinningDataTypes.pdb
+E:\Git関係\xna-morijobi-win\simple3D\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Git関係\xna-morijobi-win\simple3D\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Git関係\xna-morijobi-win\simple3D\obj\x86\Debug\xna_morijobi_win.simple3D.dll
+E:\Git関係\xna-morijobi-win\simple3D\obj\x86\Debug\xna_morijobi_win.simple3D.pdb

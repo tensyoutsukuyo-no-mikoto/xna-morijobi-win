@@ -100,7 +100,7 @@
   <ItemGroup>
     <ProjectReference Include="..\input\engine.input.csproj">
       <Project>{D599407F-A54D-477A-A4D0-284F8F5A40DA}</Project>
-      <Name>input</Name>
+      <Name>engine.input</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
